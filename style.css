@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+}
+
+.off {
+    position: absolute;
+    z-index: 1;
+
+}
+
+.on {
+    position: absolute;
+    z-index: 0;
+}
